@@ -24,3 +24,6 @@ for item in Addresses:
 output_final = pd.DataFrame(dict(orginal_address=original_list, google_address=place, google_lat=lat, google_lon=lon))
 
 output_final.to_csv("C:\Projects\Opera\data\masterfile_addresses_geocoded.csv", index=False)
+
+def add(x, y):
+	return x + y
